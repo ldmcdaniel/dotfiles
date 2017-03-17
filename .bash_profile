@@ -1,3 +1,4 @@
+source /Users/lucas.mcdaniel/dev/blog_env/bin/activate.sh
 export WORKON_HOME=~/.virtualenvs
 VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
 source /usr/local/bin/virtualenvwrapper.sh
