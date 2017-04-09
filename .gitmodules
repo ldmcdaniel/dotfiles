@@ -22,3 +22,6 @@
 [submodule ".vim/bundle/vim-multiple-cursors"]
 	path = .vim/bundle/vim-multiple-cursors
 	url = https://github.com/terryma/vim-multiple-cursors
+[submodule ".vim/bundle/indentline"]
+	path = .vim/bundle/indentline
+	url = https://github.com/yggdroot/indentline
