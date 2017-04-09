@@ -1,3 +1,4 @@
+source `which activate.sh`
 export NVM_DIR="$HOME/.nvm"
   . "/usr/local/opt/nvm/nvm.sh"
 # If you come from bash you might have to change your $PATH.

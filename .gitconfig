@@ -5,6 +5,7 @@
 [core]
     #editor = mate -w
     excludesfile = ~/.gitignore
+	editor = /usr/bin/vim
 
 [format]
     pretty = %Cred%h%Creset%C(yellow)%d%C(green) %s %C(white)(%an - %C(bold blue)%cr%Creset)
