@@ -30,6 +30,31 @@
   brew install macvim
 ```
 
+## Install [Pyflakes](https://pypi.python.org/pypi/pyflakes):
+```
+  pip install --upgrade pyflakes
+```
+
+## Install [pycodestyle](https://github.com/PyCQA/pycodestyle):
+```
+  pip install pycodestyle
+```
+
+## Install [Pug-Lint](https://github.com/pugjs/pug-lint):
+```
+  npm install -g pug-lint
+```
+
+## Install [jshint](http://jshint.com/install/):
+```
+  npm install -g jshint
+```
+
+## Install [html-tidy](http://www.html-tidy.org/):
+```
+  brew install tidy-html5
+```
+
 ## Install [Pathogen](https://github.com/tpope/vim-pathogen):
 ```
   mkdir ~/.vim/autoload 
