@@ -21,6 +21,7 @@ let g:syntastic_pug_checkers = ['pug_lint', 'jshint']
 let g:syntastic_javascript_checkers = ['jshint']
 let g:syntastic_html_checkers = ['tidy', 'jshint']
 let g:syntastic_aggregate_errors = 1
+let g:syntastic_loc_list_height=5
 """"""""""""""""""""""""""""""""
 """"      Set Commands      """"
 """"""""""""""""""""""""""""""""
@@ -36,7 +37,7 @@ set cursorline                  "show visual line under the cursor's current lin
 set expandtab                   "Pressing the <TAB> key will always insert 'softtabstop' amount of characters
 set foldenable                  "Enable code folding
 set foldcolumn=1                "Add a bit extra margin to the left
-set guifont=InputMono:h16       "Set font type and size. Depends on the resolution. Larger screens, prefer h20
+set guifont=InputMono:h14       "Set font type and size. Depends on the resolution. Larger screens, prefer h20
 set hidden
 set history=1000
 set hlsearch
@@ -44,6 +45,7 @@ set incsearch
 set laststatus=2                "Always show the status line
 set linespace=3                 "Prefer a slightly higher line height
 set nocompatible                "Forget compatibility with Vi. Who cares.
+set nowrap                      "Do not wrap lines
 set number                      "Show current line number
 set relativenumber              "Show relative line numbers
 set ruler                       "Display current cursor position in lower right corner.
@@ -59,6 +61,7 @@ set smarttab                    "A <TAB> key inserts indentation according to 's
 set softtabstop=2               "Affectes what happens when you press the <TAB> or <BS> keys
 set tabstop=2                   "Changes the width of the tab character
 set visualbell                  "No sounds
+let NERDTreeQuitOnOpen=1        "Close nerdtree when opening a file
 "http://vim.wikia.com/wiki/Indenting_source_code
 """"""""""""""""""""""""""""""""
 """"        Filetypes       """"
