@@ -86,6 +86,7 @@
 10. [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors)
 11. [vim-surround](https://github.com/tpope/vim-surround)
 12. [youcompleteme](https://github.com/valloric/youcompleteme)
+13. [vim-better-whitespace](https://github.com/ntpeters/vim-better-whitespace)
 
 ## Run this after you install the submodules:
 ```
