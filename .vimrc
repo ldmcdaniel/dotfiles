@@ -30,7 +30,6 @@ set ai                          "auto indent
 set autoindent                  "Copy the indentation from the previous line when starting a new line
 set autoread                    "Reload files changed outside of vim
 set autowrite                   "Write the old file out when switching between files.
-colorscheme desert              "Set the color scheme. Change this to your preference. 
 set background=dark
 set backspace=indent,eol,start  "Allow backspace in insert mode
 set cursorline                  "show visual line under the cursor's current line
@@ -61,7 +60,8 @@ set smarttab                    "A <TAB> key inserts indentation according to 's
 set softtabstop=2               "Affectes what happens when you press the <TAB> or <BS> keys
 set tabstop=2                   "Changes the width of the tab character
 set visualbell                  "No sounds
-let NERDTreeQuitOnOpen=1        "Close nerdtree when opening a file
+"let NERDTreeQuitOnOpen=1        "Close nerdtree when opening a file
+colorscheme desert              "Set the color scheme. Change this to your preference. 
 "http://vim.wikia.com/wiki/Indenting_source_code
 """"""""""""""""""""""""""""""""
 """"        Filetypes       """"
