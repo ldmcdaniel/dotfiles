@@ -50,15 +50,15 @@
 ```
 
 ## This results of the above will install the following Vim packages::
-1.  [auto-pairs](https://github.com/jiangmiao/auto-pairs)
-2.  [ctrlp](https://github.com/kien/ctrlp.vim)
-3.  [indentline](https://github.com/yggdroot/indentline)
-4.  [nerdtree](https://github.com/scrooloose/nerdtree)
-5.  [syntastic](https://github.com/scrooloose/syntastic)
-6.  [vim-airline](https://github.com/bling/vim-airline)
-7.  [vim-css-color](https://github.com/ap/vim-css-color)
+1.  [ctrlp](https://github.com/kien/ctrlp.vim)
+2.  [indentline](https://github.com/yggdroot/indentline)
+3.  [nerdtree](https://github.com/scrooloose/nerdtree)
+4.  [syntastic](https://github.com/scrooloose/syntastic)
+5.  [vim-airline](https://github.com/bling/vim-airline)
+6.  [vim-css-color](https://github.com/ap/vim-css-color)
+7.  [vim-fugitive](https://github.com/tpope/vim-fugitive)
 8.  [vim-gitgutter](https://github.com/airblade/vim-gitgutter)
-9.  [vim-jade](https://github.com/digitaltoad/vim-jade)
+9. [vim-jade](https://github.com/digitaltoad/vim-jade)
 10. [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors)
 11. [vim-surround](https://github.com/tpope/vim-surround)
 12. [youcompleteme](https://github.com/valloric/youcompleteme)
