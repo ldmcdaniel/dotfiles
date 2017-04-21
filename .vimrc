@@ -35,6 +35,8 @@ set backspace=indent,eol,start  "Allow backspace in insert mode
 set nowrap                      "Do not wrap lines
 set autoindent                  "Copy the indentation from the previous line when starting a new line
 set sidescroll=10
+set foldmethod=indent           "Sets the foldmethod to indent
+set foldlevel=3                 "Sets the fold level to indent based on shiftwidth
 """"""""""""""""""""""""""""""""
 """"        Syntax          """"
 """"""""""""""""""""""""""""""""
