@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/lucas.mcdaniel'
+let g:netrw_dirhist_2='/Users/lucas.mcdaniel/dotfiles'
+let g:netrw_dirhist_3='/Users/lucas.mcdaniel'
+let g:netrw_dirhist_4='/Users'
+let g:netrw_dirhist_5='/'

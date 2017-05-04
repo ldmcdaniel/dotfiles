@@ -43,9 +43,12 @@ set history=50
 set hlsearch                    "Highlight all matches when searching
 set incsearch                   "Match the search string while typing
 set laststatus=2                "Always show the status line
+set lazyredraw                  "Don't redraw when you don't have to
 set linespace=3                 "Prefer a slightly higher line height
 set nocompatible                "Forget compatibility with Vi. Who cares.
 set nowrap                      "Do not wrap lines
+set noswapfile
+set nobackup
 set number                      "Show current line number
 set relativenumber              "Show relative line numbers
 set ruler                       "Display current cursor position in lower right corner.
@@ -66,8 +69,19 @@ set tabstop=2                   "Changes the width of the tab character
 set visualbell                  "No sounds
 
 au FocusLost * :wa              "Saves file when Vim window loses focus
-colorscheme desert              "Set the color scheme. Change this to your preference.
+if has('gui_running')
+  colorscheme atom-dark
+else
+  colorscheme desert
+endif
 filetype on
 filetype plugin indent on
 imap jj <esc>                   "Map escape key to jj -- much faster
 syntax enable                   "Detect the file type and get color in your files
+let mapleader=","               "Map leader key from \ to ,
+map <C-j> <C-W>j
+map <C-k> <C-W>k
+map <C-h> <C-W>h
+map <C-l> <C-W>l
+nnoremap <leader>a :Ack
+nnoremap <leader>w <C-w>v<C-w>l "Open a vertical split ans switch over to it
