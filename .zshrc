@@ -7,6 +7,9 @@ export WORKON_HOME=~/.virtualenvs
 VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
 source /usr/local/bin/virtualenvwrapper.sh
 export CRYPTOGRAPHY_ALLOW_OPENSSL_098=1
+########################################################
+####              SMILEDIRECTCLUB DEV               ####
+########################################################
 alias glog="git log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 alias sc='workon smilecheck'
 alias ur="git remote update upstream --prune"
@@ -35,7 +38,7 @@ gh() {
 }
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/lucas.mcdaniel/.oh-my-zsh
+export ZSH=/Users/$USER/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -117,10 +120,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export PATH=/Users/lucas.mcdaniel/.virtualenvs/smilecheck/bin:/Users/lucas.mcdaniel/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/lucas.mcdaniel/.vimpkg/bin
+export PATH=/Users/$USER/.virtualenvs/smilecheck/bin:/Users/$USER/bin:/Users/$USER/.vimpkg/bin:/Users/$USER/bin
 
-export PATH=/Users/lucas.mcdaniel/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/lucas.mcdaniel/.vimpkg/bin
-
-export PATH=/Users/lucas.mcdaniel/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/lucas.mcdaniel/.vimpkg/bin:/Users/lucas.mcdaniel/.vimpkg/bin
-
-export PATH=/Users/lucas.mcdaniel/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/lucas.mcdaniel/.vimpkg/bin:/Users/lucas.mcdaniel/.vimpkg/bin:/Users/lucas.mcdaniel/.vimpkg/bin
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin

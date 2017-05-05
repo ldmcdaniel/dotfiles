@@ -22,7 +22,15 @@ let g:syntastic_javascript_checkers = ['jshint']
 let g:syntastic_html_checkers = ['tidy', 'jshint']
 let g:syntastic_aggregate_errors = 1
 let g:syntastic_highlighting = 1
-"""""""""""""""""""""""""""""""""
+
+""""""""""""""""""""""""""""""""
+""""   NERDTree Settings   """"
+""""""""""""""""""""""""""""""""
+let NERDTreeMinimalUI=1         "Remove top lines in NERDTree
+let NERDTreeQuitOnOpen=1      "Quit nerdtree when opening a file
+let NERDTreeDirArrows=1
+
+""""""""""""""""""""""""""""""""
 """"      Set Commands      """"
 """"""""""""""""""""""""""""""""
 set ai                          "auto indent
@@ -76,12 +84,16 @@ else
 endif
 filetype on
 filetype plugin indent on
-imap jj <esc>                   "Map escape key to jj -- much faster
 syntax enable                   "Detect the file type and get color in your files
+""""""""""""""""""""""""""""""""
+""""      Key Mappings      """"
+""""""""""""""""""""""""""""""""
 let mapleader=","               "Map leader key from \ to ,
 map <C-j> <C-W>j
 map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
-nnoremap <leader>a :Ack
-nnoremap <leader>w <C-w>v<C-w>l "Open a vertical split ans switch over to it
+nmap <leader>f :NERDTreeToggle %<cr>
+nnoremap <leader>a :Ack         "Open Ack to search
+nnoremap <leader>v <C-w>v<C-w>l "Open a vertical split and switch over to it
+nnoremap <leader>h <C-w>s<C-w>j "Open a horizontal split and switch over to it
