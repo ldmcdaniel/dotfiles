@@ -24,10 +24,10 @@ let g:syntastic_aggregate_errors = 1
 let g:syntastic_highlighting = 1
 
 """"""""""""""""""""""""""""""""
-""""   NERDTree Settings   """"
+""""   NERDTree Settings    """"
 """"""""""""""""""""""""""""""""
 let NERDTreeMinimalUI=1         "Remove top lines in NERDTree
-let NERDTreeQuitOnOpen=1      "Quit nerdtree when opening a file
+let NERDTreeQuitOnOpen=1        "Quit nerdtree when opening a file
 let NERDTreeDirArrows=1
 
 """"""""""""""""""""""""""""""""
@@ -41,18 +41,22 @@ set background=dark             "Sets a dark background
 set backspace=indent,eol,start  "Allow backspace in insert mode
 set cursorline                  "show visual line under the cursor's current line
 set expandtab                   "Pressing the <TAB> key will always insert 'softtabstop' amount of characters
+set fillchars+=vert:\           "Remove the characters from the vertical split
 set foldenable                  "Enable code folding
-set foldcolumn=1                "Add a bit extra margin to the left
 set foldlevel=3                 "Sets the fold level to indent based on shiftwidth
 set foldmethod=indent           "Sets the foldmethod to indent
-set guifont=InputMono:h14       "Set font type and size. Depends on the resolution. Larger screens, prefer h20
+set guifont=InputMono:h16       "Set font type and size. Depends on the resolution. Larger screens, prefer h20
+set guioptions-=l
+set guioptions-=L
+set guioptions-=r
+set guioptions-=R
 set hidden
 set history=50
 set hlsearch                    "Highlight all matches when searching
 set incsearch                   "Match the search string while typing
 set laststatus=2                "Always show the status line
 set lazyredraw                  "Don't redraw when you don't have to
-set linespace=3                 "Prefer a slightly higher line height
+set linespace=8                 "Prefer a slightly higher line height
 set nocompatible                "Forget compatibility with Vi. Who cares.
 set nowrap                      "Do not wrap lines
 set noswapfile
@@ -76,11 +80,14 @@ set updatetime=250              "used to show git gutter quicker than default of
 set tabstop=2                   "Changes the width of the tab character
 set visualbell                  "No sounds
 
+hi vertsplit guifg=bg guibg=bg
 au FocusLost * :wa              "Saves file when Vim window loses focus
 if has('gui_running')
   colorscheme atom-dark
+  set foldcolumn=2
 else
   colorscheme desert
+  set foldcolumn=1
 endif
 filetype on
 filetype plugin indent on
@@ -88,12 +95,16 @@ syntax enable                   "Detect the file type and get color in your file
 """"""""""""""""""""""""""""""""
 """"      Key Mappings      """"
 """"""""""""""""""""""""""""""""
-let mapleader=","               "Map leader key from \ to ,
+"Map leader key from \ to ,
+let mapleader=","
 map <C-j> <C-W>j
 map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
 nmap <leader>f :NERDTreeToggle %<cr>
-nnoremap <leader>a :Ack         "Open Ack to search
-nnoremap <leader>v <C-w>v<C-w>l "Open a vertical split and switch over to it
-nnoremap <leader>h <C-w>s<C-w>j "Open a horizontal split and switch over to it
+"Open Ack to search
+nnoremap <leader>a :Ack
+"Open a vertical split and switch over to it
+nnoremap <leader>v <C-w>v<C-w>l
+"Open a horizontal split and switch over to it
+nnoremap <leader>h <C-w>s<C-w>j

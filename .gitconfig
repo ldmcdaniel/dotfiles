@@ -34,3 +34,5 @@
     ignored = !git ls-files -v | grep ^[a-z]
     cleanup = "!git branch --merged | grep  -v '\\*\\|master\\|develop' | xargs -n 1 git branch -d"
 
+[push]
+	default = simple

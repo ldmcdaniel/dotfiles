@@ -19,6 +19,7 @@ alias pmnpm='pushd ~/dev/scc-api/smilecheck && ./manage.py npm && popd'
 alias pmr='./manage.py runserver'
 alias restore_data='./manage.py restore_data'
 alias freshdev="sc && ur && git co develop && git pull upstream develop && reqs && pup && pmnpm && cd ~/dev/scc-api/smilecheck"
+
 # alias mvim='/Applications/MacVim.app/Contents/MacOS/MacVim'
 
 # OSX
