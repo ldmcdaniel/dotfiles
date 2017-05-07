@@ -84,10 +84,8 @@ hi vertsplit guifg=bg guibg=bg
 au FocusLost * :wa              "Saves file when Vim window loses focus
 if has('gui_running')
   colorscheme atom-dark
-  set foldcolumn=2
 else
   colorscheme desert
-  set foldcolumn=1
 endif
 filetype on
 filetype plugin indent on

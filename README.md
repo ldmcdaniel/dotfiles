@@ -3,11 +3,15 @@
 ## Install [Input Mono](http://input.fontbureau.com/):
   Copy the [font files](http://input.fontbureau.com/download/) to `/User/Library/Fonts` or drag the onto Font Book.
 
-## Change directories to ~/ to clone/fork this repo and run `install.sh`
+## Clone the repo:
 ```
 cd ~/
 git clone https://github.com/ldmcdaniel/dotfiles
-~/dotfiles/install.sh
+```
+
+## Enter the interactive installation menu:
+```
+~/dotfiles/menu.sh
 ```
 
 ## The install script will link your dotfiles, change shell to Zsh, install dependencies, and install: 
