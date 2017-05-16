@@ -84,6 +84,8 @@ hi vertsplit guifg=bg guibg=bg
 au FocusLost * :wa              "Saves file when Vim window loses focus
 if has('gui_running')
   colorscheme atom-dark
+  set macligatures
+  set guifont=Fira\ Code:h16
 else
   colorscheme desert
 endif

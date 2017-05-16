@@ -1,7 +1,10 @@
 # My OSX Dotfile Collection and Development Setup
 
-## Install [Input Mono](http://input.fontbureau.com/):
-  Copy the [font files](http://input.fontbureau.com/download/) to `/User/Library/Fonts` or drag the onto Font Book.
+>Your dotfiles will most likely be the *longest project you ever work on*. 
+--[Anish Athalye](http://www.anishathalye.com/2014/08/03/managing-your-dotfiles/)
+
+## Install [Input Mono](http://input.fontbureau.com/) and [FiraCode](https://github.com/tonsky/FiraCode):
+  Copy the [Input Mono](http://input.fontbureau.com/download/) and [FiraCode](https://github.com/tonsky/FiraCode/releases/download/1.204/FiraCode_1.204.zip) fonts to `/User/Library/Fonts` or drag them into Font Book in OSX.
 
 ## Clone the repo:
 ```bash
