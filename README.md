@@ -41,7 +41,7 @@ git clone https://github.com/ldmcdaniel/dotfiles
   * [vim-surround](https://github.com/tpope/vim-surround)
   * [youcompleteme](https://github.com/valloric/youcompleteme)
 
-## Cloning this repo witll install these linters:
+## Cloning this repo will install these linters:
   * [Pyflakes](https://pypi.python.org/pypi/pyflakes)
   * [pycodestyle](https://github.com/PyCQA/pycodestyle)
   * [Pug-Lint](https://github.com/pugjs/pug-lint)
