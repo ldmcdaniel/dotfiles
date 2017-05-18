@@ -42,6 +42,7 @@ Enter the interactive installation menu:
   * [vim-gitgutter](https://github.com/airblade/vim-gitgutter)
   * [vim-jade](https://github.com/digitaltoad/vim-jade)
   * [vim-surround](https://github.com/tpope/vim-surround)
+  * [vim-vue](https://github.com/posva/vim-vue)
   * [youcompleteme](https://github.com/valloric/youcompleteme)
 
 ## Cloning this repo will install these linters:

@@ -43,3 +43,6 @@
 [submodule ".vim/bundle/emmet-vim"]
 	path = .vim/bundle/emmet-vim
 	url = https://github.com/mattn/emmet-vim
+[submodule ".vim/bundle/vim-vue"]
+	path = .vim/bundle/vim-vue
+	url = https://github.com/posva/vim-vue
