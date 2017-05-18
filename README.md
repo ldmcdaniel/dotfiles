@@ -30,6 +30,7 @@ Enter the interactive installation menu:
 ## Cloning this repo will install the following Vim packages:
   * [ack](https://github.com/mileszs/ack.vim)
   * [ctrlp](https://github.com/kien/ctrlp.vim)
+  * [emmet-vim](https://github.com/mattn/emmet-vim)
   * [indentline](https://github.com/yggdroot/indentline)
   * [nerdtree](https://github.com/scrooloose/nerdtree)
   * [syntastic](https://github.com/scrooloose/syntastic)
