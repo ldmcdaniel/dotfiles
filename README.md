@@ -3,16 +3,18 @@
 >Your dotfiles will most likely be the *longest project you ever work on*. 
 --[Anish Athalye](http://www.anishathalye.com/2014/08/03/managing-your-dotfiles/)
 
-## Install [Input Mono](http://input.fontbureau.com/) and [FiraCode](https://github.com/tonsky/FiraCode):
-  Copy the [Input Mono](http://input.fontbureau.com/download/) and [FiraCode](https://github.com/tonsky/FiraCode/releases/download/1.204/FiraCode_1.204.zip) fonts to `/User/Library/Fonts` or drag them into Font Book in OSX.
+![Screenshot](https://raw.githubusercontent.com/ldmcdaniel/dotfiles/master/images/screenshot.png)
 
-## Clone the repo:
+## How to install:
+Copy the [Input Mono](http://input.fontbureau.com/download/) and [FiraCode](https://github.com/tonsky/FiraCode/releases/download/1.204/FiraCode_1.204.zip) fonts to `/User/Library/Fonts` or drag them into Font Book in OSX.
+
+Clone the repo:
 ```bash
 cd ~/
 git clone https://github.com/ldmcdaniel/dotfiles
 ```
 
-## Enter the interactive installation menu:
+Enter the interactive installation menu:
 ```bash
 ~/dotfiles/menu.sh
 ```
@@ -48,4 +50,4 @@ git clone https://github.com/ldmcdaniel/dotfiles
   * [jshint](http://jshint.com/install/)
   * [html-tidy](http://www.html-tidy.org/)
 
-## Run vim with `vi` and MacVim with `mvim`.
+Run vim with `vi` and MacVim with `mvim`.
