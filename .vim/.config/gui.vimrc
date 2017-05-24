@@ -5,5 +5,7 @@ set guioptions-=l
 set guioptions-=L
 set guioptions-=r
 set guioptions-=R
+set lines=100                   "This helps to start mvim maximized
+set columns=450                 "This helps to start mvim maximized
 "set macligatures
 "set guifont=Fira\ Code:h16
