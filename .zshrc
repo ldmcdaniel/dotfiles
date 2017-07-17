@@ -121,6 +121,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export PATH=/Users/$USER/.virtualenvs/smilecheck/bin:/Users/$USER/bin:/Users/$USER/.vimpkg/bin:/Users/$USER/bin
+export PATH=/Users/$USER/.virtualenvs/smilecheck/bin:/Users/$USER/bin:/Users/$USER/.vimpkg/bin
 
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbinr:/usr/local/bin/dot

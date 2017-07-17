@@ -8,7 +8,7 @@ set cursorline                  "show visual line under the cursor's current lin
 set expandtab                   "Pressing the <TAB> key will always insert 'softtabstop' amount of characters
 set fillchars+=vert:\           "Remove the characters from the vertical split
 set foldenable                  "Enable code folding
-set foldlevel=3                 "Sets the fold level to indent based on shiftwidth
+set foldlevel=0                 "Sets the fold level to indent based on shiftwidth
 set foldmethod=indent           "Sets the foldmethod to indent
 set hidden
 set history=50
