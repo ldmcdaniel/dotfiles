@@ -34,6 +34,7 @@ set si                          "smart indent
 set smartindent                 "Automatically insert one extra level of indentation
 set smarttab                    "A <TAB> key inserts indentation according to 'shiftwidth' at the beginning of the line
 set softtabstop=2               "Affectes what happens when you press the <TAB> or <BS> keys
+set spell spelllang=en_us
 set splitbelow                  "a new window is put above the current one
 set splitright                  "a new window is put to the left of the current one
 set updatetime=50               "used to show git gutter quicker than default of 4 seconds
