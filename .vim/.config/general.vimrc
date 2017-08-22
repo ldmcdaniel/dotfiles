@@ -16,7 +16,7 @@ set hlsearch                    "Highlight all matches when searching
 set incsearch                   "Match the search string while typing
 set laststatus=2                "Always show the status line
 set lazyredraw                  "Don't redraw when you don't have to
-set linespace=8                 "Prefer a slightly higher line height
+set linespace=18                "Prefer a slightly higher line height
 set nocompatible                "Forget compatibility with Vi. Who cares.
 set nowrap                      "Do not wrap lines
 set noswapfile

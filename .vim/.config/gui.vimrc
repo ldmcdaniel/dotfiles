@@ -1,6 +1,6 @@
 hi vertsplit guifg=bg guibg=bg
 colorscheme atom-dark
-set guifont=InputMono:h16       "Set font type and size. Depends on the resolution. Larger screens, prefer h20
+set guifont=InputMono:h18       "Set font type and size. Depends on the resolution. Larger screens, prefer h20
 set guioptions-=l
 set guioptions-=L
 set guioptions-=r
