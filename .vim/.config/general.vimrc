@@ -22,7 +22,6 @@ set nowrap                      "Do not wrap lines
 set noswapfile
 set nobackup
 set number                      "Show current line number
-set relativenumber              "Show relative line numbers
 set ruler                       "Display current cursor position in lower right corner.
 set scrolloff=8                 "start scrolling when we are 8 lines away from margins
 set shiftwidth=2                "Affects what happens when you press >>, << or ==
@@ -39,6 +38,7 @@ set splitbelow                  "a new window is put above the current one
 set splitright                  "a new window is put to the left of the current one
 set updatetime=50               "used to show git gutter quicker than default of 4 seconds
 set tabstop=2                   "Changes the width of the tab character
+set tags=tags
 set visualbell                  "No sounds
 
 au FocusLost * :wa              "Saves file when Vim window loses focus
