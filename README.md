@@ -19,6 +19,13 @@ Enter the interactive installation menu:
 ~/dotfiles/menu.sh
 ```
 
+Add more Pathogen Packages:
+```bash
+cd ~/dotfiles/.vim/bundle/
+git submodule add https://github.com/repo-name/new-submodule-name.git
+```
+
+
 ## The install script will link your dotfiles, change shell to Zsh, install dependencies, and install: 
   * [Homebrew](https://brew.sh/)
   * [Zsh](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
@@ -42,6 +49,7 @@ Enter the interactive installation menu:
   * [vim-fugitive](https://github.com/tpope/vim-fugitive)
   * [vim-gitgutter](https://github.com/airblade/vim-gitgutter)
   * [vim-jade](https://github.com/digitaltoad/vim-jade)
+  * [vim-jsx](https://github.com/mxw/vim-jsx)
   * [vim-pug](https://github.com/digitaltoad/vim-pug)
   * [vim-surround](https://github.com/tpope/vim-surround)
   * [vim-vue](https://github.com/posva/vim-vue)
