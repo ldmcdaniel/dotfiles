@@ -7,6 +7,7 @@ set backspace=indent,eol,start  "Allow backspace in insert mode
 set cursorline                  "show visual line under the cursor's current line
 set expandtab                   "Pressing the <TAB> key will always insert 'softtabstop' amount of characters
 set fillchars+=vert:\           "Remove the characters from the vertical split
+set guioptions+=e
 set hidden
 set history=50
 set hlsearch                    "Highlight all matches when searching
