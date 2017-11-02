@@ -1,4 +1,3 @@
-set ai                          "auto indent
 set autoindent                  "Copy the indentation from the previous line when starting a new line
 set autoread                    "Reload files changed outside of vim
 set autowrite                   "Write the old file out when switching between files.

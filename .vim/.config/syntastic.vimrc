@@ -8,7 +8,7 @@ let g:syntastic_check_on_open = 1
 
 let g:syntastic_python_checkers = ['pyflakes', 'pycodestyle', 'python']
 let g:syntastic_pug_checkers = ['pug_lint', 'jshint']
-let g:syntastic_javascript_checkers = ['jshint']
+let g:syntastic_javascript_checkers = ['eslint']
 let g:syntastic_html_checkers = ['tidy', 'jshint']
 let g:syntastic_aggregate_errors = 1
 let g:syntastic_highlighting = 1

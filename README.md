@@ -36,9 +36,11 @@ git submodule add https://github.com/repo-name/new-submodule-name.git
 
 ## Cloning this repo will install the following Vim packages:
   * [ack](https://github.com/mileszs/ack.vim)
+  * [auto-pairs](https://github.com/jiangmiao/auto-pairs)
   * [ctrlp](https://github.com/kien/ctrlp.vim)
   * [emmet-vim](https://github.com/mattn/emmet-vim)
   * [indentline](https://github.com/yggdroot/indentline)
+  * [matchtagalways](https://github.com/valloric/matchtagalways)
   * [nerdcommenter](https://github.com/scrooloose/nerdcommenter)
   * [nerdtree](https://github.com/scrooloose/nerdtree)
   * [syntastic](https://github.com/scrooloose/syntastic)
@@ -50,6 +52,7 @@ git submodule add https://github.com/repo-name/new-submodule-name.git
   * [vim-gitgutter](https://github.com/airblade/vim-gitgutter)
   * [vim-jade](https://github.com/digitaltoad/vim-jade)
   * [vim-jsx](https://github.com/mxw/vim-jsx)
+  * [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors)
   * [vim-pug](https://github.com/digitaltoad/vim-pug)
   * [vim-surround](https://github.com/tpope/vim-surround)
   * [vim-vue](https://github.com/posva/vim-vue)
