@@ -1,0 +1,14 @@
+let mapleader=' '
+
+set number
+set surround
+set showmode
+
+noremap <leader>f :action SearchEverywhere<CR>
+noremap <leader>h :action VimWindowSplitHorizontal<CR>
+noremap <leader>v :action VimWindowSplitVertical<CR>
+
+noremap <C-h> :action VimWindowLeft<CR>
+noremap <C-l> :action VimWindowRight<CR>
+noremap <C-k> :action VimWindowUp<CR>
+noremap <C-j> :action VimWindowDown<CR>
