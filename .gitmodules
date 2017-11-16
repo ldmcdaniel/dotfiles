@@ -67,3 +67,6 @@
 [submodule ".vim/bundle/vim-sensible"]
 	path = .vim/bundle/vim-sensible
 	url = https://github.com/tpope/vim-sensible.git
+[submodule ".vim/bundle/vim-sass-lint"]
+	path = .vim/bundle/vim-sass-lint
+	url = https://github.com/gcorne/vim-sass-lint

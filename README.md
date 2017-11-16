@@ -54,6 +54,7 @@ git submodule add https://github.com/repo-name/new-submodule-name.git
   * [vim-jsx](https://github.com/mxw/vim-jsx)
   * [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors)
   * [vim-pug](https://github.com/digitaltoad/vim-pug)
+  * [vim-sass-lint](https://github.com/gcorne/vim-sass-lint)
   * [vim-surround](https://github.com/tpope/vim-surround)
   * [vim-vue](https://github.com/posva/vim-vue)
   * [youcompleteme](https://github.com/valloric/youcompleteme)
@@ -64,5 +65,6 @@ git submodule add https://github.com/repo-name/new-submodule-name.git
   * [Pug-Lint](https://github.com/pugjs/pug-lint)
   * [jshint](http://jshint.com/install/)
   * [html-tidy](http://www.html-tidy.org/)
+  * [sass-lint](https://github.com/sasstools/sass-lint#ide-integration)
 
 Run vim with `vi` and MacVim with `mvim`.

@@ -31,4 +31,5 @@ pip install --upgrade pyflakes;
 pip install pycodestyle;
 npm install -g pug-lint;
 npm install -g jshint;
+npm install -g sass-lint
 brew install tidy-html5;

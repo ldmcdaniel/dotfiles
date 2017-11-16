@@ -29,7 +29,7 @@ done
 while true; do
   read -p "Do you want to install Zsh (y/n)? " zs
   case $zs in
-    [Yy]* ) sh ./.scripts/install_zsh.sh; break;;
+    [Yy]* ) sh ./.scripts/install_zsh.sh; sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)”; "break;;
     [Nn]* ) echo "Okay ;)"; break;;
     * ) echo "Please answer yes or no.";;
   esac
