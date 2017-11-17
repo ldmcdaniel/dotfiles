@@ -9,6 +9,9 @@ ZSH_THEME="avit"
 source $ZSH/oh-my-zsh.sh
 source /Users/$USER/dotfiles/.zsh/rc/emma/.zshrc
 
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/dev
+source /usr/local/bin/virtualenvwrapper.sh
 
 
 plugins=(git)
