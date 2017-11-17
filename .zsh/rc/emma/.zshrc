@@ -15,5 +15,5 @@ export LOCALEMMA_EDITOR_BASE_DIR=$EMMADEV/editor/
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
-source $HOME/.zshenv
+#source $HOME/.zshenv
 eval "$(rbenv init -)"
