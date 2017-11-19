@@ -1,7 +1,8 @@
 #!/bin/bash
 
-brew install macvim cmake;
+brew install macvim cmake python3;
 brew update;
+sudo /usr/local/bin/pip3 install virtualenv virtualenvwrapper;
 mkdir ~/.vim/autoload;
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim;
 
