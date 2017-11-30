@@ -1,4 +1,5 @@
 #!/bin/bash
+npm install --global trash
 
 while true; do
   read -p "Do you want to install Homebrew (y/n)? " hb
