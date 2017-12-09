@@ -20,21 +20,18 @@ set noswapfile
 set nobackup
 set number                      "Show current line number
 set scrolloff=1                 "Start scrolling when you are X lines away from end of screen
-set shiftwidth=2                "Affects what happens when you press >>, << or ==
 set showmatch                   "show matching brackets
 set showmode                    "Show current mode down the bottom
 set smartindent                 "Automatically insert one extra level of indentation
 set smarttab                    "A <TAB> key inserts indentation according to 'shiftwidth' at the beginning of the line
-set softtabstop=2               "Affectes what happens when you press the <TAB> or <BS> keys
 set spell spelllang=en_us
 set splitbelow                  "a new window is put above the current one
 set splitright                  "a new window is put to the left of the current one
 set updatetime=50               "used to show git gutter quicker than default of 4 seconds
-set tabstop=2                   "Changes the width of the tab character
 set visualbell                  "No sounds
 
 au FocusLost * :wa              "Saves file when Vim window loses focus
-colorscheme desert
+colorscheme atom-dark
 filetype on
 filetype plugin indent on
 syntax enable                   "Detect the file type and get color in your files
