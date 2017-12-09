@@ -36,6 +36,7 @@ git submodule add https://github.com/repo-name/new-submodule-name.git
 
 ## Cloning this repo will install the following Vim packages:
   * [ack](https://github.com/mileszs/ack.vim)
+  * [ale](https://github.com/w0rp/ale)
   * [auto-pairs](https://github.com/jiangmiao/auto-pairs)
   * [ctrlp](https://github.com/kien/ctrlp.vim)
   * [emmet-vim](https://github.com/mattn/emmet-vim)
@@ -43,7 +44,6 @@ git submodule add https://github.com/repo-name/new-submodule-name.git
   * [matchtagalways](https://github.com/valloric/matchtagalways)
   * [nerdcommenter](https://github.com/scrooloose/nerdcommenter)
   * [nerdtree](https://github.com/scrooloose/nerdtree)
-  * [syntastic](https://github.com/scrooloose/syntastic)
   * [vim-airline](https://github.com/bling/vim-airline)
   * [vim-atom-dark](https://github.com/ap/vim-css-colo://github.com/gosukiwi/vim-atom-dark)
   * [vim-better-whitespace](https://github.com/ntpeters/vim-better-whitespace)
@@ -67,4 +67,4 @@ git submodule add https://github.com/repo-name/new-submodule-name.git
   * [html-tidy](http://www.html-tidy.org/)
   * [sass-lint](https://github.com/sasstools/sass-lint#ide-integration)
 
-Run vim with `vi` and MacVim with `mvim`.
+Run vim with `vim` and MacVim with `mvim`.

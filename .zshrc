@@ -9,7 +9,7 @@ ZSH_THEME="avit"
 
 # Path to your oh-my-zsh installation.
 source $ZSH/oh-my-zsh.sh
-source /Users/$USER/dotfiles/.zsh/rc/emma/.zshrc
+#source /Users/$USER/dotfiles/.zsh/rc/emma/.zshrc
 
 source ~/.nvm/nvm.sh
 export WORKON_HOME=$HOME/.virtualenvs
