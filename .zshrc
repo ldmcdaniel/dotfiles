@@ -5,6 +5,7 @@ export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="avit"
+alias vi=vim
 . /usr/local/etc/profile.d/z.sh
 
 # Path to your oh-my-zsh installation.
