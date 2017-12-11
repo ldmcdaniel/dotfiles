@@ -6,7 +6,6 @@ export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="avit"
 alias vi=vim
-. /usr/local/etc/profile.d/z.sh
 
 # Path to your oh-my-zsh installation.
 source $ZSH/oh-my-zsh.sh
