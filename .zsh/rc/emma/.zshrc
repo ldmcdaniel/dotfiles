@@ -17,3 +17,4 @@ export LOCALEMMA_EDITOR_BASE_DIR=$EMMADEV/editor/
 export PATH="$PATH:$HOME/.rvm/bin"
 #source $HOME/.zshenv
 eval "$(rbenv init -)"
+alias elog='ssh emma27 -tt "tail -f /var/log/apache2/apache2-errors.log"'

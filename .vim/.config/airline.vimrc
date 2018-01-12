@@ -5,9 +5,11 @@ let g:airline#extensions#branch#format = 1
 let g:airline#extensions#hunks#enabled = 0
 let g:airline#extensions#virtualenv#enabled = 0
 let g:airline#extensions#tabline#fnamecollapse = 0
+let g:airline#extensions#tabline#fnamemod = ':t'
 let g:airline#extensions#tabline#buffer_min_count = 2
-let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
+let g:airline#extensions#tabline#formatter = 'default'
 let g:airline#extensions#tabline#buffer_idx_mode = 1
+let g:airline#extensions#tabline#buffers_label = 'b'
 nmap <leader>1 <Plug>AirlineSelectTab1
 nmap <leader>2 <Plug>AirlineSelectTab2
 nmap <leader>3 <Plug>AirlineSelectTab3
