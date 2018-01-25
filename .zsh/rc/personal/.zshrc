@@ -8,6 +8,8 @@ source $ZSH/oh-my-zsh.sh
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="avit"
 
+alias weather='curl wttr.in/Nashville'
+
 plugins=(git)
 
 export PATH=/Users/$USER/bin:/Users/$USER/.vimpkg/bin
