@@ -6,10 +6,11 @@ export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="avit"
 alias vi=vim
+alias weather='curl wttr.in/Nashville'
 
 # Path to your oh-my-zsh installation.
 source $ZSH/oh-my-zsh.sh
-#source /Users/$USER/dotfiles/.zsh/rc/emma/.zshrc
+source /Users/$USER/dotfiles/.zsh/rc/emma/.zshrc
 
 source ~/.nvm/nvm.sh
 export WORKON_HOME=$HOME/.virtualenvs
