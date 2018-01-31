@@ -7,6 +7,7 @@ export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
 ZSH_THEME="avit"
 alias vi=vim
 alias weather='curl wttr.in/Nashville'
+alias p3='workon p3'
 
 # Path to your oh-my-zsh installation.
 source $ZSH/oh-my-zsh.sh
