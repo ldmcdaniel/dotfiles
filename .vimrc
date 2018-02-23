@@ -6,6 +6,7 @@ source ~/dotfiles/.vim/.config/mappings.vimrc
 source ~/dotfiles/.vim/.config/airline.vimrc
 source ~/dotfiles/.vim/.config/emmet.vimrc
 "source ~/dotfiles/.vim/.config/indents.vimrc
+source ~/dotfiles/.vim/.config/folding.vimrc
 source ~/dotfiles/.vim/.config/emma.vimrc
 
 if has('gui_running')
