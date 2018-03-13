@@ -18,3 +18,5 @@ export PATH="$PATH:$HOME/.rvm/bin"
 #source $HOME/.zshenv
 eval "$(rbenv init -)"
 alias elog='lemma kick_apache; ssh emma27 -tt "tail -f /var/log/apache2/apache2-errors.log"'
+alias pg='psql -h localhost -p 5432 -d exports -U exports'
+alias pg_deploy='SQITCH_PASSWORD=emmainc sqitch -h localhost -p 5432 -u exports -d exports --engine pg deploy'
