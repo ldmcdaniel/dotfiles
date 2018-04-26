@@ -1,6 +1,4 @@
-source ~/dotfiles/.vim/.config/pathogen.vimrc
 source ~/dotfiles/.vim/.config/ale.vimrc
-source ~/dotfiles/.vim/.config/nerdtree.vimrc
 source ~/dotfiles/.vim/.config/general.vimrc
 source ~/dotfiles/.vim/.config/mappings.vimrc
 source ~/dotfiles/.vim/.config/airline.vimrc
