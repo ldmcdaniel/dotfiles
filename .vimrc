@@ -1,6 +1,7 @@
 source ~/dotfiles/.vim/.config/ale.vimrc
 source ~/dotfiles/.vim/.config/general.vimrc
 source ~/dotfiles/.vim/.config/mappings.vimrc
+source ~/dotfiles/.vim/.config/netrw.vimrc
 source ~/dotfiles/.vim/.config/airline.vimrc
 source ~/dotfiles/.vim/.config/emmet.vimrc
 "source ~/dotfiles/.vim/.config/indents.vimrc

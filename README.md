@@ -19,12 +19,24 @@ Enter the interactive installation menu:
 ~/dotfiles/menu.sh
 ```
 
-Add more Pathogen Packages:
+To add more plugins:
 ```bash
-cd ~/dotfiles/.vim/bundle/
+cd ~/dotfiles/.vim/plugins/start/
 git submodule add https://github.com/repo-name/new-submodule-name.git
 ```
 
+YouCompleteMe Installation after adding the git submodule:
+```bash
+cd ~/dotfiles/.vim/pack/plugins/start/youcompleteme/
+git submodule update --init --recursive
+./install.py --all
+```
+
+Symbolic link the ~/.vim directory to the .vim in this repo:
+```bash
+rm -rf ~/.vim
+ln -s ~/dotfiles/.vim ~/.vim
+```
 
 ## The install script will link your dotfiles, change shell to Zsh, install dependencies, and install: 
   * [Homebrew](https://brew.sh/)
@@ -35,21 +47,25 @@ git submodule add https://github.com/repo-name/new-submodule-name.git
   * Change your default shell
 
 ## Cloning this repo will install the following Vim packages:
-  * [ack](https://github.com/mileszs/ack.vim)
   * [ale](https://github.com/w0rp/ale)
   * [auto-pairs](https://github.com/jiangmiao/auto-pairs)
-  * [ctrlp](https://github.com/kien/ctrlp.vim)
-  * [emmet-vim](https://github.com/mattn/emmet-vim)
   * [indentline](https://github.com/yggdroot/indentline)
-  * [matchtagalways](https://github.com/valloric/matchtagalways)
   * [nerdcommenter](https://github.com/scrooloose/nerdcommenter)
-  * [nerdtree](https://github.com/scrooloose/nerdtree)
   * [vim-airline](https://github.com/bling/vim-airline)
-  * [vim-atom-dark](https://github.com/ap/vim-css-colo://github.com/gosukiwi/vim-atom-dark)
-  * [vim-better-whitespace](https://github.com/ntpeters/vim-better-whitespace)
   * [vim-css-color](https://github.com/ap/vim-css-color)
   * [vim-fugitive](https://github.com/tpope/vim-fugitive)
   * [vim-gitgutter](https://github.com/airblade/vim-gitgutter)
+  * [vim-surround](https://github.com/tpope/vim-surround)
+  * [youcompleteme](https://github.com/valloric/youcompleteme)
+
+## Here are some more plugins that I have used previously:
+  * [ack](https://github.com/mileszs/ack.vim)
+  * [ctrlp](https://github.com/kien/ctrlp.vim)
+  * [emmet-vim](https://github.com/mattn/emmet-vim)
+  * [matchtagalways](https://github.com/valloric/matchtagalways)
+  * [nerdtree](https://github.com/scrooloose/nerdtree)
+  * [vim-atom-dark](https://github.com/ap/vim-css-colo://github.com/gosukiwi/vim-atom-dark)
+  * [vim-better-whitespace](https://github.com/ntpeters/vim-better-whitespace)
   * [vim-jade](https://github.com/digitaltoad/vim-jade)
   * [vim-jsdoc](https://github.com/heavenshell/vim-jsdoc)
   * [vim-jsx](https://github.com/mxw/vim-jsx)
@@ -57,9 +73,7 @@ git submodule add https://github.com/repo-name/new-submodule-name.git
   * [vim-pug](https://github.com/digitaltoad/vim-pug)
   * [vim-sass-lint](https://github.com/gcorne/vim-sass-lint)
   * [vim-sensible](https://github.com/tpope/vim-sensible)
-  * [vim-surround](https://github.com/tpope/vim-surround)
   * [vim-vue](https://github.com/posva/vim-vue)
-  * [youcompleteme](https://github.com/valloric/youcompleteme)
 
 ## Cloning this repo will install these linters:
   * [Pyflakes](https://pypi.python.org/pypi/pyflakes)

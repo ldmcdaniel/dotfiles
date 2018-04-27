@@ -4,7 +4,8 @@ map <C-j> <C-W>j
 map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
-nmap <leader>e :NERDTreeToggle %<cr>
+"Toggle netrw
+nmap <leader>e :Lexplore<cr>
 "Open Ack to search
 nnoremap <leader>f :Ack
 "Open a vertical split and switch over to it

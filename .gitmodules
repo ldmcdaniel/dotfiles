@@ -25,3 +25,6 @@
 [submodule ".vim/pack/plugins/start/vim-surround"]
 	path = .vim/pack/plugins/start/vim-surround
 	url = https://github.com/tpope/vim-surround
+[submodule ".vim/pack/plugins/start/youcompleteme"]
+	path = .vim/pack/plugins/start/youcompleteme
+	url = https://github.com/valloric/youcompleteme
