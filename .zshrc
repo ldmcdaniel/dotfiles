@@ -8,6 +8,7 @@ ZSH_THEME="avit"
 alias vi=vim
 alias weather='curl wttr.in/Nashville'
 alias p3='workon p3'
+alias p2='workon p2'
 
 # Path to your oh-my-zsh installation.
 source $ZSH/oh-my-zsh.sh
