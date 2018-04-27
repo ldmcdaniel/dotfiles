@@ -28,3 +28,6 @@
 [submodule ".vim/pack/plugins/start/youcompleteme"]
 	path = .vim/pack/plugins/start/youcompleteme
 	url = https://github.com/valloric/youcompleteme
+[submodule ".vim/pack/plugins/start/vim-jsx"]
+	path = .vim/pack/plugins/start/vim-jsx
+	url = https://github.com/mxw/vim-jsx
