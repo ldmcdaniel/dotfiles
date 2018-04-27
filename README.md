@@ -3,8 +3,6 @@
 >Your dotfiles will most likely be the *longest project you ever work on*. 
 --[Anish Athalye](http://www.anishathalye.com/2014/08/03/managing-your-dotfiles/)
 
-![Screenshot](https://raw.githubusercontent.com/ldmcdaniel/dotfiles/master/images/screenshot.png)
-
 ## How to install:
 Copy the [Input Mono](http://input.fontbureau.com/download/) and [FiraCode](https://github.com/tonsky/FiraCode/releases/download/1.204/FiraCode_1.204.zip) fonts to `/User/Library/Fonts` or drag them into Font Book in OSX.
 
