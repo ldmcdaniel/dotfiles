@@ -38,6 +38,13 @@ rm -rf ~/.vim
 ln -s ~/dotfiles/.vim ~/.vim
 ```
 
+Move the colors file into the colors directory:
+```bash
+Get updates for the colors files [here](https://github.com/gosukiwi/vim-atom-dark)
+mkdir ~/dotfiles/.vim/colors
+cp ~/dotfiles/.vim/pack/plugins/opt/vim-atom-dark/colors/* .~/dotfiles/.vim/colors/
+```
+
 ## The install script will link your dotfiles, change shell to Zsh, install dependencies, and install: 
   * [Homebrew](https://brew.sh/)
   * [Zsh](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
