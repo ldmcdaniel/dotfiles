@@ -31,7 +31,6 @@ set updatetime=50               "used to show git gutter quicker than default of
 set visualbell                  "No sounds
 
 au FocusLost * :wa              "Saves file when Vim window loses focus
-colorscheme atom-dark
 filetype on
 filetype plugin indent on
 syntax enable                   "Detect the file type and get color in your files

@@ -1,75 +1,33 @@
-[submodule ".vim/bundle/ack.vim"]
-	path = .vim/bundle/ack.vim
-	url = https://github.com/mileszs/ack.vim.git
-[submodule ".vim/bundle/ctrlp.vim"]
-	path = .vim/bundle/ctrlp.vim
-	url = https://github.com/ctrlpvim/ctrlp.vim
-[submodule ".vim/bundle/indentline"]
-	path = .vim/bundle/indentline
-	url = https://github.com/yggdroot/indentline
-[submodule ".vim/bundle/nerdtree"]
-	path = .vim/bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree
-[submodule ".vim/bundle/vim-airline"]
-	path = .vim/bundle/vim-airline
-	url = https://github.com/vim-airline/vim-airline
-[submodule ".vim/bundle/vim-atom-dark"]
-	path = .vim/bundle/vim-atom-dark
-	url = https://github.com/gosukiwi/vim-atom-dark
-[submodule ".vim/bundle/vim-better-whitespace"]
-	path = .vim/bundle/vim-better-whitespace
-	url = https://github.com/ntpeters/vim-better-whitespace
-[submodule ".vim/bundle/vim-css-color"]
-	path = .vim/bundle/vim-css-color
-	url = https://github.com/ap/vim-css-color
-[submodule ".vim/bundle/vim-fugitive"]
-	path = .vim/bundle/vim-fugitive
-	url = https://github.com/tpope/vim-fugitive.git
-[submodule ".vim/bundle/vim-gitgutter"]
-	path = .vim/bundle/vim-gitgutter
-	url = https://github.com/airblade/vim-gitgutter
-[submodule ".vim/bundle/vim-jade"]
-	path = .vim/bundle/vim-jade
-	url = https://github.com/digitaltoad/vim-jade
-[submodule ".vim/bundle/vim-surround"]
-	path = .vim/bundle/vim-surround
-	url = https://github.com/tpope/vim-surround
-[submodule ".vim/bundle/youcompleteme"]
-	path = .vim/bundle/youcompleteme
-	url = https://github.com/valloric/youcompleteme
-[submodule ".vim/bundle/emmet-vim"]
-	path = .vim/bundle/emmet-vim
-	url = https://github.com/mattn/emmet-vim
-[submodule ".vim/bundle/vim-vue"]
-	path = .vim/bundle/vim-vue
-	url = https://github.com/posva/vim-vue
-[submodule ".vim/bundle/vim-pug"]
-	path = .vim/bundle/vim-pug
-	url = https://github.com/digitaltoad/vim-pug
-[submodule ".vim/bundle/nerdcommenter"]
-	path = .vim/bundle/nerdcommenter
-	url = https://github.com/scrooloose/nerdcommenter
-[submodule ".vim/bundle/vim-jsx"]
-	path = .vim/bundle/vim-jsx
-	url = https://github.com/mxw/vim-jsx.git
-[submodule ".vim/bundle/matchtagalways"]
-	path = .vim/bundle/matchtagalways
-	url = https://github.com/valloric/matchtagalways
-[submodule ".vim/bundle/vim-multiple-cursors"]
-	path = .vim/bundle/vim-multiple-cursors
-	url = https://github.com/terryma/vim-multiple-cursors
-[submodule ".vim/bundle/auto-pairs"]
-	path = .vim/bundle/auto-pairs
-	url = https://github.com/jiangmiao/auto-pairs
-[submodule ".vim/bundle/vim-sensible"]
-	path = .vim/bundle/vim-sensible
-	url = https://github.com/tpope/vim-sensible.git
-[submodule ".vim/bundle/vim-sass-lint"]
-	path = .vim/bundle/vim-sass-lint
-	url = https://github.com/gcorne/vim-sass-lint
-[submodule ".vim/bundle/ale"]
-	path = .vim/bundle/ale
+[submodule ".vim/pack/plugins/start/ale"]
+	path = .vim/pack/plugins/start/ale
 	url = https://github.com/w0rp/ale
-[submodule ".vim/bundle/vim-jsdoc"]
-	path = .vim/bundle/vim-jsdoc
+[submodule ".vim/pack/plugins/start/vim-airline"]
+	path = .vim/pack/plugins/start/vim-airline
+	url = https://github.com/bling/vim-airline
+[submodule ".vim/pack/plugins/start/vim-gitgutter"]
+	path = .vim/pack/plugins/start/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
+[submodule ".vim/pack/plugins/start/auto-pairs"]
+	path = .vim/pack/plugins/start/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs
+[submodule ".vim/pack/plugins/start/indentline"]
+	path = .vim/pack/plugins/start/indentline
+	url = https://github.com/yggdroot/indentline
+[submodule ".vim/pack/plugins/start/vim-css-color"]
+	path = .vim/pack/plugins/start/vim-css-color
+	url = https://github.com/ap/vim-css-color
+[submodule ".vim/pack/plugins/start/vim-fugitive"]
+	path = .vim/pack/plugins/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
+[submodule ".vim/pack/plugins/start/vim-jsdoc"]
+	path = .vim/pack/plugins/start/vim-jsdoc
 	url = https://github.com/heavenshell/vim-jsdoc
+[submodule ".vim/pack/plugins/start/vim-surround"]
+	path = .vim/pack/plugins/start/vim-surround
+	url = https://github.com/tpope/vim-surround
+[submodule ".vim/pack/plugins/start/youcompleteme"]
+	path = .vim/pack/plugins/start/youcompleteme
+	url = https://github.com/valloric/youcompleteme
+[submodule ".vim/pack/plugins/start/vim-jsx"]
+	path = .vim/pack/plugins/start/vim-jsx
+	url = https://github.com/mxw/vim-jsx
