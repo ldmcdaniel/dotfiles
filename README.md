@@ -29,3 +29,4 @@ virtualenv -p /usr/bin/python2.7 p2
   * [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
   * Change your default shell
 
+## Check out my [vim installation](https://github.com/ldmcdaniel/.vim) that was previously a part of this repo.
