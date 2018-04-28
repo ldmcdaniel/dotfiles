@@ -19,6 +19,7 @@ Enter the interactive installation menu:
 
 Create virtualenv:
 ```bash
+virtualenv -p python3 p3
 virtualenv -p /usr/bin/python2.7 p2
 ```
 
