@@ -5,7 +5,6 @@ while true; do
   read -p "Do you want to install Homebrew (y/n)? " hb
   case $hb in
     [Yy]* ) ./.scripts/install.sh;
-#/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)";
       break;;
     [Nn]* ) echo "Okay ;)"; break;;
     * ) echo "Please answer yes or no.";;
