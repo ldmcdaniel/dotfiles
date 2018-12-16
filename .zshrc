@@ -12,7 +12,6 @@ alias p2='workon p2'
 
 # Path to your oh-my-zsh installation.
 source $ZSH/oh-my-zsh.sh
-source /Users/$USER/dotfiles/.zsh/rc/emma/.zshrc
 
 source ~/.nvm/nvm.sh
 export WORKON_HOME=$HOME/.virtualenvs
