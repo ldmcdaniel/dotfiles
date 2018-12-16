@@ -12,7 +12,6 @@ alias p2='workon p2'
 
 # Path to your oh-my-zsh installation.
 source $ZSH/oh-my-zsh.sh
-source /Users/$USER/dotfiles/.zsh/rc/emma/.zshrc
 
 source ~/.nvm/nvm.sh
 export WORKON_HOME=$HOME/.virtualenvs
@@ -23,5 +22,4 @@ source /usr/local/bin/virtualenvwrapper.sh
 plugins=(git)
 
 
-export PATH="$PATH:/Users/$USER/bin:/Users/$USER/.vimpkg/bin"
-export PATH="$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbinr:/usr/local/bin/dot"
+export PATH="$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbinr:/usr/local/bin/elixir"
