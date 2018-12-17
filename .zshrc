@@ -14,6 +14,13 @@ alias p2='workon p2'
 source $ZSH/oh-my-zsh.sh
 source /Users/$USER/dotfiles/.zsh/rc/emma/.zshrc
 
+# remove these when not needed to use member-sync
+export POSTGRES_DB=sync
+export POSTGRES_USER=sync
+export POSTGRES_PASSWORD=emmainc
+export PGDATA=/var/lib/postgresql/data/pgdata
+# remove these when not needed to use member-sync
+
 source ~/.nvm/nvm.sh
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/dev
